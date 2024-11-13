@@ -1,7 +1,13 @@
-#include "API.h"
+// main.c
+#include "factorial.h"
 
-int main (int argc, char *argv[])
-{
-	API("hello from main \n");
-	return 0;
+int main() {
+    int num = 5;
+    int result;
+
+
+    result = factorial(num);
+    printf("Factorial of %d is %d\n", num, result);
+
+    return 0;
 }
