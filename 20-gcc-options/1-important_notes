@@ -1,0 +1,4 @@
+1-.i files is the output of preprocessing stage (gcc .E main.c > main.i)
+2-.s files is the output of assembling stage (gcc .S main.c > main.s)
+3-.o (relocatable object file) files is the output of compling stage (gcc -c main.c)
+4-.out or (ELF file) (executable and link file) is the output of linker stage

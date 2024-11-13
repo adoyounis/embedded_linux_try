@@ -1,0 +1,6 @@
+1- check the .h file is named correctly by ls -l
+2- we first make -o files by (gcc -c API.c) then (gcc -c main.c)
+3-then we create the static library by (ar rcs lib_API.a API.o)
+4-then we link them by (gcc main.c -I . lib_API.a)
+5-then execute
+6-to show the files in our static library (ar t lib_API.a)
